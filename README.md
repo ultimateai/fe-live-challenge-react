@@ -1,7 +1,7 @@
 [![](./src/logo.svg)](https://ultimate.ai)
 # Frontend Challenge
 
-Hello! We're excited about your interest in joining the Ultimate team. We prepared a nice task for you to hack on together with us. We would like to see this as a team session, where we are your teammate! You will take the lead on this we would like you to share with us your thoughts as much as possible. If you're stuck, tell us! We will share with you some of our ideas and we can discuss them. It's okay to ask or consult the web.
+Hello! We're excited about your interest in joining the Ultimate team. We prepared a nice task for you to hack on together with us. We would like to see this as a team session, where we are your team-mates! You will take the lead on this we would like you to share with us your thoughts as much as possible. If you're stuck, tell us! We will share with you some of our ideas and we can discuss them. It's okay to ask or consult the web.
 
 Please share your screen with us, so it feels a bit more like sitting in the same room.
 
@@ -69,18 +69,25 @@ Think about a UI that is easy to understand for clients who might not know what 
 are not yet very familiar with intent recognition, so make sure your UI communicates what they are looking at on this page. 
 
 ## Minimum Requirements
-- Your page allows users to get an overview over all the pre-trained intents that are available (use `fetchIntents` from `data.ts`).
-- Clients can see what each intent is used for and see at least one example expression without any extra clicks.
+- Render a list of the pre-trained intents, as provided to you via `fetchIntents()`
+- Each item on the list should show at least:
+  - Name
+  - Description
+  - One example expression
 - Clients can select/unselect intents individually or all at once.
-- There is no need to persist the selection upon reloading the page.
+
+## General Guidelines
 
 - This project is based on react-create-app. Extend this code to fulfill the requirements.
-- You are free to use any additional libraries you like, but you are certainly welcome to implement this without any further dependencies, using basic HTML elements.
-- Use your favorite styling solution. This project already supports .css .scss and emotion js. Feel free to add anything else that you like to use.
-- Your solution should work on desktop with any modern browser of your choice. Optimizing for different browsers, devices or screen resolutions is not needed for this challenge.
-- We love tests but they are not a requirement to complete this challenge, so only add them if you have the extra time.
-
+- No need to use external libraries, but you can if you want.
+- Supported styling solutions out of the box:
+  - .css
+  - .scss 
+  - @emotion/react
+- You're welcome to add test if you have time, but this is not a requirement!
+- 
 ## What we look for:
 - Clean, well structured code that is easy to read and extend.
-- Good communication of your thought process, when you know exactly what you're doing, as well as when you still haven't decided how to do something.
-- A simple UI that is easy to understand and intuitive to use.
+- We want to hear your thoughts, even if you're stuck, simply speak up and we will help you.
+- Bug free code and answers the specifications.
+
