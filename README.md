@@ -12,9 +12,9 @@ When a visitor to their website write a message in the chat, our AI analyzes the
 
 ## Your Challenge
 
-This project includes a function to produce intents data that you can use in your work.
+This project includes a function to produce intents data that you will use in your work.
 
-Each item in the JSON contains the following:
+Each item in the intents returned from the function contains the following:
 - `id`: The unique ID that identifies the intent.
 - `name`: The name of that intent.
 - `description`: A string describing what the intent is used for.
@@ -38,8 +38,7 @@ See the [types file](./src/types.d.ts) for TS definitions for the intent.
   - .css
   - .scss 
   - @emotion/react
-- You're welcome to add test if you have time, but this is not a requirement!
-- 
+
 ## What we look for:
-- Clean, well structured code that is easy to read and extend.
+- Clean, well-structured code that is easy to read and extend.
 - We want to hear your thoughts, even if you're stuck, feel free to ask for help anytime.
